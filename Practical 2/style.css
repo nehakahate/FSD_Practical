@@ -1,0 +1,35 @@
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	background: #e0e0d1
+		
+;
+}
+nav{
+	height: 40px;
+}
+#navbar{
+	height: 40px;
+}
+h2{
+	text-align: center;
+}
+ul{
+  
+  background-color: black;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;  
+}
+li{
+	float: left;
+	margin-right: 10px;
+}
+a:link{
+	display:inline-block;
+	text-align: center;
+	background: #8080ff;
+	text-decoration: none;
+}
+a:hover{
+	background-color: white;
+}
