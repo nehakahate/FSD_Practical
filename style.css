@@ -1,0 +1,64 @@
+h1 {
+
+
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Oxygen', sans-serif;
+}
+ #nav{
+  margin: 0 auto;
+  width: 350px;
+} 
+
+ #fsdLogo {
+  float: left;
+  height: 100px;
+  width: 140px;
+  padding-right: 5px;
+
+ }
+ #intro {
+     float: left;
+     clear: both;
+     width: 100%;
+     margin: 20px;
+     padding: 5px;
+     border-left: 5px solid teal;
+     
+ }
+ .container{
+    clear: both;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 2px solid teal;
+    border-radius: 5px;
+
+    }
+ .pract-no{
+     height: 30px;
+     width: 30px;
+     background-color: teal;
+     float: left;
+     text-align: center;
+     font-size: large;
+     margin-top: 15px;
+     margin-left: 5px;
+     margin-right: 5px;
+ }
+ .link{
+     margin-top: 2px; 
+ }
+ a, a:visited{
+     text-decoration: none;
+     color: thistle;
+ }
+ a:hover{
+     color: turquoise;
+     border: thistle;
+ }
