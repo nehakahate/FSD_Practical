@@ -1,8 +1,5 @@
-h1 {
 
-
-}
-* {
+*{
     box-sizing: border-box;
 }
 body {
@@ -11,8 +8,8 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
  #nav{
-  margin: 0 auto;
-  width: 350px;
+  margin: 10px auto;
+  width: 450px;
 } 
 
  #fsdLogo {
@@ -31,26 +28,6 @@ body {
      border-left: 5px solid teal;
      
  }
- .container{
-    clear: both;
-    width: auto;
-    margin-top: 30px;
-    margin-left: 10px;
-    border: 2px solid teal;
-    border-radius: 5px;
-
-    }
- .pract-no{
-     height: 30px;
-     width: 30px;
-     background-color: teal;
-     float: left;
-     text-align: center;
-     font-size: large;
-     margin-top: 15px;
-     margin-left: 5px;
-     margin-right: 5px;
- }
  .link{
      margin-top: 2px; 
  }
@@ -62,3 +39,101 @@ body {
      color: turquoise;
      border: thistle;
  }
+/********For laptop/Larger device**********/
+@media (min-width:992px){
+    .container{
+        clear: both;
+        width: auto;
+        margin-top: 30px;
+        margin-left: 10px;
+        border: 2px solid teal;
+        border-radius: 5px;
+    
+        }
+     .pract-no{
+         height: 30px;
+         width: 30px;
+         background-color: teal;
+         float: left;
+         text-align: center;
+         font-size: large;
+         margin: 5px;
+     }
+     #fsdLogo {
+        float: left;
+        height: 100px;
+        width: 140px;
+        padding-right: 5px;
+      
+       }
+    
+}
+
+/**********For Tablet****************/
+@media (min-width:992px){
+    .container{
+        clear: both;
+        width: auto;
+        margin-top: 30px;
+        margin-left: 100px;
+        border: 2px solid teal;
+        border-radius: 5px;
+    
+        }
+     .pract-no{
+         height: 30px;
+         width: 30px;
+         background-color: teal;
+         float: left;
+         text-align: center;
+         font-size: large;
+         margin: 5px;
+     }
+     #fsdLogo {
+        float: left;
+        height: 100px;
+        width: 140px;
+        padding-right: 5px;
+      
+       }
+       h1{
+           float: left;
+           margin-top: 15px;
+       }
+    
+}
+
+
+ /****For Mobiles******/
+  @media (min-width:0px) and (max-width:767px) {
+    
+    #fsdLogo{
+        float: left;
+        height: 50px;
+        width : 75px;
+        padding-right : 5px;
+      } 
+      .container{
+        clear: both;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-bottom: 3px solid teal;
+        }
+
+        h1{
+            font-size: 30px;
+        }
+        .pract-no{
+            height: 30px;
+            width: 30px;
+            background-color: teal;
+            float: left;
+            text-align: center;
+            font-size: large;
+           margin: 5px;
+        }
+
+
+
+ } 
