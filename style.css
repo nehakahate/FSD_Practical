@@ -107,11 +107,12 @@ body {
  /****For Mobiles******/
   @media (min-width:0px) and (max-width:767px) {
     #nav{
-  margin: 10px auto;
+  margin: 20px auto;
   width: 100px;
 } 
     #fsdLogo{
         float: left;
+        margin-left: 20px;
         height: 50px;
         width : 75px;
         padding-right : 5px;
